@@ -73,7 +73,7 @@ export default function App() {
     const saved = localStorage.getItem("quiz_user");
     return saved ? JSON.parse(saved) : null;
   });
-  const [screen, setScreen] = useState<"auth" | "dashboard" | "history" | "setup" | "loading" | "quiz" | "result">("auth");
+  const [screen, setScreen] = useState<"auth" | "dashboard" | "history" | "setup" | "loading" | "quiz" | "result">("setup");
   const [authMode, setAuthMode] = useState<"login" | "register">("login");
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
@@ -92,13 +92,8 @@ export default function App() {
   const timerRef = useRef<NodeJS.Timeout | null>(null);
 
   useEffect(() => {
-    if (user) {
-      setScreen("dashboard");
-      fetchHistory();
-    } else {
-      setScreen("auth");
-    }
-  }, [user]);
+  setScreen("setup");
+}, []);
 
   useEffect(() => {
     if (screen === "quiz" && !answered) {
