@@ -133,7 +133,7 @@ export default function App() {
   const handleAuth = async (e: React.FormEvent) => {
     e.preventDefault();
     setError(null);
-    const endpoint = authMode === "login" ? "/api/auth/login" : "/api/auth/register";
+    const endpoint = "/api/login";
     try {
       const res = await fetch(endpoint, {
         method: "POST",
