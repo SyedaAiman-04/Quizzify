@@ -26,13 +26,15 @@ https://quizzify-nu.vercel.app
 ## Screenshots
 
 ### Dashboard
-<img width="1451" height="867" alt="Screenshot 2026-03-09 213650" src="https://github.com/user-attachments/assets/04f3beee-5463-4f44-9de5-6a940f205d19"
+<img width="1451" height="867" alt="Screenshot 2026-03-09 213650" src="https://github.com/user-attachments/assets/1e831cac-1043-4e03-bebd-0ff9f599cbb5" />
+
 
 ### Game Setup
-![Game Setup](images/setup.png)
+<img width="1396" height="798" alt="Screenshot 2026-03-09 213714" src="https://github.com/user-attachments/assets/b32e364d-1fd4-494a-a1e5-25363712c547" />
 
 ### Quiz Results
-![Results](images/results.png)
+
+<img width="1427" height="822" alt="Screenshot 2026-03-09 214031" src="https://github.com/user-attachments/assets/84f9cf4f-c59b-4f4e-9696-9caf27ed7fec" />
 
 ---
 
