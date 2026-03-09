@@ -26,7 +26,8 @@ https://quizzify-nu.vercel.app
 ## Screenshots
 
 ### Dashboard
-![Dashboard](C:\Users\ayman\Pictures\Screenshots\Screenshot 2026-03-09 213650.png)
+![Dashboard](C:\Users\ayman\Pictures\Screenshots\Screenshot<img width="1451" height="867" alt="Screenshot 2026-03-09 213650" src="https://github.com/user-attachments/assets/04f3beee-5463-4f44-9de5-6a940f205d19" />
+ 2026-03-09 213650.png)
 
 ### Game Setup
 ![Game Setup](images/setup.png)
